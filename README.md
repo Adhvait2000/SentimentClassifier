@@ -23,14 +23,14 @@ This project involves developing a sentiment classifier to categorize comments a
 # Results
 Below are the detailed results of the models, including F1 scores for positive and negative sentiment detection:
 
-| Vectorizer  | Model | Validation | Test | F1 Score Positive | F1 Score Negative |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| TFIDF  | Dummy Classifier  | 51.36%  | 49.97%  | 0%  | 67%  |
-| Count  | Logistic Regression  | 82.78%  | 84.26%  | 84%  | 84%  |
-| TFIDF  | Logisitc Regression  | 84.45%  | 85.23%  | 86%  | 85%  |
-| TFIDF  | Multinomial Naive Bayes  | 82.68%  | 83.96%  | 84%  | 84%  |
-| TFIDF  | Bayes  | 79.90% | 80.53%  | 81%  | 80%  |
-| TFIDF  | MLP Neural Network  | 84.54%  | 85.68%  | 86%  | 86%  |
+| **Vectorizer** | **Model**                    | **Validation** | **Test** | **F1 Score Positive** | **F1 Score Negative** |
+|----------------|------------------------------|----------------|----------|-----------------------|-----------------------|
+| TFIDF          | Dummy Classifier             | 51.36%        | 49.97%   | 0%                    | 67%                   |
+| Count          | Logistic Regression          | 82.78%        | 84.26%   | 84%                   | 84%                   |
+| TFIDF          | Logistic Regression          | 84.45%        | 85.23%   | 86%                   | 85%                   |
+| TFIDF          | Multinomial Naive Bayes      | 82.68%        | 83.96%   | 84%                   | 84%                   |
+| TFIDF          | Perceptron                   | 79.90%        | 80.53%   | 81%                   | 80%                   |
+| TFIDF          | MLP Neural Network           | 84.54%        | 85.68%   | 86%                   | 86%                   |
 
 # Future Directions
 
